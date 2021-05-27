@@ -13,6 +13,7 @@ public class UserDao
 	public UserDao() throws Exception
 	{
 		con = MyConnection.getConnection();
+System.out.println("DaoClass");
 	}
 	
 	public String validate(User user) throws Exception
