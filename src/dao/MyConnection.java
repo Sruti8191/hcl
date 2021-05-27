@@ -13,6 +13,7 @@ public class MyConnection
 	
 	public static Connection getConnection() throws Exception
 	{
+System.out.println("MYCONNECTION");
 		Properties p = new Properties();
 		p.load(new FileReader("d:\\javademos\\MyConnection.properties"));
 		if(con == null)
